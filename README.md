@@ -15,5 +15,6 @@ Connect to your instance and run the following commands:
 
 disable:
 
-    vim /etc/sysctl.d/custom-ip.conf net.ipv4.ip_forward=0
+    vim /etc/sysctl.d/custom-ip.conf 
+    net.ipv4.ip_forward=0
     sudo sysctl -p /etc/sysctl.d/custom-ip.conf
